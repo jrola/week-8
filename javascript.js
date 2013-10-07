@@ -1,4 +1,3 @@
-
 var fadeBox = document.getElementById('fadeInBox');		// set variable to = the id fadeInBox div
 		var counter = 10;		// set variable counter to 10 
 		var opacity = 1;		// set variable opacity to 1
@@ -63,26 +62,8 @@ var fadeBox = document.getElementById('fadeInBox');		// set variable to = the id
 				counter = 10;						//counter is set back to 10
 			}
 		}
-			
-		
-	////////////////////////////////////////////////////////////////////////////////////////////	
-		
-		var timer = 100;				// var is set to timer then is set equal to 10
-		
-		window.addEventListener("load",timeAlert);		// EventListener that runs when page is loaded, a timeAlert also starts
 	
-		function timeAlert() {		// function that has a timer when page is loaded
-			if (timer > 0){			// timer will start at 10 and count down to 0
-			timer --;				// timer count down
-			}
-			else {		// once the timer is = to 0 an alert messagebox will pop up
-			alert("You have been on this page for 10 seconds!");// message when you have been on the page for more than 10 seconds
-			clearInterval(contentTimer);	// resets the timer back to 10
-			}
-		}
-		
-		contentTimer = setInterval(timeAlert, "1000");  // the speed of the counter which = 10 seconds
-		
+	
 ////////////////////////////////////////////////////////////////////////////////////////////	
 
 		var canvas = document.getElementById('myCanvas');		// variable set to id myCanvas
