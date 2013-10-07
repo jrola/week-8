@@ -1,5 +1,4 @@
 
-
 var fadeBox = document.getElementById('fadeInBox');		// set variable to = the id fadeInBox div
 		var counter = 10;		// set variable counter to 10 
 		var opacity = 1;		// set variable opacity to 1
@@ -68,7 +67,7 @@ var fadeBox = document.getElementById('fadeInBox');		// set variable to = the id
 		
 	////////////////////////////////////////////////////////////////////////////////////////////	
 		
-		var timer = 10;				// var is set to timer then is set equal to 10
+		var timer = 100;				// var is set to timer then is set equal to 10
 		
 		window.addEventListener("load",timeAlert);		// EventListener that runs when page is loaded, a timeAlert also starts
 	
